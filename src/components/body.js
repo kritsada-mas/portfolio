@@ -1,5 +1,5 @@
-// components/body.js
 import React, { useState } from 'react';
+import AboutMe from './aboutme'; // Import the AboutMe component
 
 const Tabs = () => {
   const [activeTab, setActiveTab] = useState('about-me');
@@ -15,7 +15,7 @@ const Tabs = () => {
         <button className={activeTab === 'contacts' ? 'active' : ''} onClick={() => setActiveTab('contacts')}>contacts</button>
       </div>
       <div className="tab-content">
-        {activeTab === 'about-me' && <div>About me content</div>}
+        {activeTab === 'about-me' && <AboutMe />} {/* Render AboutMe component here */}
         {activeTab === 'work' && <div>Work content</div>}
         {activeTab === 'projects' && <div>Projects content</div>}
         {activeTab === 'article' && <div>Article content</div>}

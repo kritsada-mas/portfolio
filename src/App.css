@@ -159,8 +159,65 @@ body {
   font-family: monospace;
   max-width: 60rem;
   width: 90%;
-  padding: 1rem;
-  border: 1px dashed rgba(64, 224, 125, 0.3);
   height: 20rem; /* Set a fixed height */
   overflow: auto; /* Make content scrollable if it overflows */
+}
+
+.aboutme-container {
+  color: rgb(64, 224, 125);
+  font-family: monospace;
+  max-width: 60rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.dropdown {
+  margin-top: 1rem;
+}
+
+.dropdown button {
+  background-color: black;
+  color: rgb(64, 224, 125);
+  font-family: monospace;
+  border: 1px dashed rgba(64, 224, 125, 0.3);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.dropdown li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.topic {
+  flex: 1; /* Take up remaining space */
+}
+
+.years {
+  text-align: center; /* Align years to the center */
+  min-width: 6rem; /* Ensure enough space for the years */
+}
+
+.experience-bar {
+  background-color: rgba(64, 224, 125, 0.2);
+  border: 1px dashed rgba(64, 224, 125, 0.3);
+  width: 60%;
+  height: 1rem;
+  margin-left: 1rem;
+}
+
+.experience-bar-fill {
+  background-color: rgb(64, 224, 125);
+  height: 100%;
 }
