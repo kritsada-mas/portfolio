@@ -1,7 +1,7 @@
 body {
   background-color: black;
-  color: green;
-  font-family: 'Courier New', Courier, monospace;
+  color: rgb(64, 224, 125);
+  font-family: monospace;
 }
 
 .main-container {
@@ -27,7 +27,46 @@ body {
   padding-right: 1rem;
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.header-image {
+  display: flex;
+  align-items: center;
+  height: 11rem; /* Fixed height to match ASCII art */
+}
+
+.header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 1rem;
   color: rgb(64, 224, 125);
+  height: 100%; /* Fill the available height */
+}
+
+.header-title {
+  margin-bottom: auto;
+}
+
+.header-subtitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-footer {
+  margin-top: auto;
+  font-size: 0.6rem; /* Smaller text */
+  opacity: 0.5; /* Some opacity */
+}
+
+.marutech-link {
+  color: rgb(64, 224, 208); /* Light turquoise color */
+  text-decoration: underline; /* Underline the link */
+}
+
+.marutech-link:hover {
+  color: rgb(35, 158, 148); /* Darker turquoise on hover */
+  text-decoration: none; /* Remove underline on hover */
 }
 
 .header-image pre {
@@ -37,7 +76,6 @@ body {
   tab-size: 4;
   font-feature-settings: normal;
   font-variation-settings: normal;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
   color: rgb(64 224 125/var(--tw-text-opacity));
   box-sizing: border-box;
   border: 0 solid #e5e7eb;
@@ -47,7 +85,7 @@ body {
   border-style: dashed;
   border-color: rgba(64,224,125,.3);
   opacity: .5;
-  height: 11rem;
+  height: 11rem; /* Match the height of the header-image */
   width: 11rem;
 }
 
@@ -58,6 +96,7 @@ body {
   background-color: rgb(64, 224, 125);
   overflow: hidden;
   margin-top: 10px;
+  opacity: 0.6;
 }
 
 .running-text {
@@ -65,9 +104,7 @@ body {
   white-space: nowrap;
   color: black;
   font-size: 12px;
-  font-weight: bold;
   animation: run-text 20s linear infinite;
-  font-family: __font_b25959, __font_Fallback_b25959, sans-serif;
 }
 
 @keyframes run-text {

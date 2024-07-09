@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 const MatrixBackground = () => {
   useEffect(() => {
     var tileSize = 10;
-    var fadeFactor = 0.05;
+    var fadeFactor = 0.2;
     var canvas;
     var ctx;
     var columns = [];
