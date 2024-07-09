@@ -118,3 +118,49 @@ body {
     transform: translateX(0%);
   }
 }
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around; /* Spread out the tabs evenly */
+  gap: 1rem;
+  width: 100%; /* Make sure the tabs take up the full width */
+}
+
+.tabs button {
+  background-color: black;
+  color: rgb(64, 224, 125);
+  font-family: monospace;
+  border: 1px dashed rgba(64, 224, 125, 0.3);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.tabs button.active {
+  color: rgb(64, 224, 208); /* Light turquoise color */
+  border-color: rgb(64, 224, 208);
+}
+
+.tabs button:hover {
+  color: rgb(35, 158, 148); /* Darker turquoise on hover */
+  border-color: rgb(35, 158, 148);
+}
+
+.tab-content {
+  margin-top: 1rem;
+  color: rgb(64, 224, 125);
+  font-family: monospace;
+  max-width: 60rem;
+  width: 90%;
+  padding: 1rem;
+  border: 1px dashed rgba(64, 224, 125, 0.3);
+  height: 20rem; /* Set a fixed height */
+  overflow: auto; /* Make content scrollable if it overflows */
+}
