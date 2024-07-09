@@ -26,12 +26,12 @@ const AboutMe = () => {
         <button onClick={toggleProgramming}>{getToggleButtonLabel(isProgrammingOpen)} Programming</button>
         {isProgrammingOpen && (
           <ul>
-            <li><span className="topic">Python</span><span className="years">5 year(s)</span>{renderExperienceBar(5)}</li>
-            <li><span className="topic">C++</span><span className="years">3 year(s)</span>{renderExperienceBar(3)}</li>
-            <li><span className="topic">Javascript</span><span className="years">1 year(s)</span>{renderExperienceBar(1)}</li>
-            <li><span className="topic">C#</span><span className="years">1 year(s)</span>{renderExperienceBar(1)}</li>
-            <li><span className="topic">Query</span><span className="years">2 year(s)</span>{renderExperienceBar(2)}</li>
-            <li><span className="topic">Matlab</span><span className="years">2 year(s)</span>{renderExperienceBar(2)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Python</span><span className="years">5 year(s)</span>{renderExperienceBar(5)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">C++</span><span className="years">3 year(s)</span>{renderExperienceBar(3)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Javascript</span><span className="years">1 year(s)</span>{renderExperienceBar(1)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">C#</span><span className="years">1 year(s)</span>{renderExperienceBar(1)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Query</span><span className="years">2 year(s)</span>{renderExperienceBar(2)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Matlab</span><span className="years">2 year(s)</span>{renderExperienceBar(2)}</li>
           </ul>
         )}
       </div>
@@ -40,11 +40,11 @@ const AboutMe = () => {
         <button onClick={toggleSkills}>{getToggleButtonLabel(isSkillsOpen)} Skills</button>
         {isSkillsOpen && (
           <ul>
-            <li><span className="topic">IoT</span><span className="years">3 year(s)</span>{renderExperienceBar(3)}</li>
-            <li><span className="topic">Coding</span><span className="years">8 year(s)</span>{renderExperienceBar(8)}</li>
-            <li><span className="topic">AI/ML</span><span className="years">4 year(s)</span>{renderExperienceBar(4)}</li>
-            <li><span className="topic">CICD</span><span className="years">2 year(s)</span>{renderExperienceBar(2)}</li>
-            <li><span className="topic">Cloud Service</span><span className="years">4 year(s)</span>{renderExperienceBar(4)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">IoT</span><span className="years">3 year(s)</span>{renderExperienceBar(3)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Coding</span><span className="years">8 year(s)</span>{renderExperienceBar(8)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">AI/ML</span><span className="years">4 year(s)</span>{renderExperienceBar(4)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">CICD</span><span className="years">2 year(s)</span>{renderExperienceBar(2)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Cloud Service</span><span className="years">4 year(s)</span>{renderExperienceBar(4)}</li>
           </ul>
         )}
       </div>
@@ -53,8 +53,8 @@ const AboutMe = () => {
         <button onClick={toggleLanguages}>{getToggleButtonLabel(isLanguagesOpen)} Languages</button>
         {isLanguagesOpen && (
           <ul>
-            <li><span className="topic">Thai</span><span className="years">28 year(s)</span>{renderExperienceBar(28)}</li>
-            <li><span className="topic">English</span><span className="years">27 year(s)</span>{renderExperienceBar(27)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">Thai</span><span className="years">28 year(s)</span>{renderExperienceBar(28)}</li>
+            <li style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}><span className="topic">English</span><span className="years">27 year(s)</span>{renderExperienceBar(27)}</li>
           </ul>
         )}
       </div>

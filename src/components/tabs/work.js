@@ -30,7 +30,7 @@ const Work = () => {
             <span className="toggle-icon">{getToggleButtonLabel(isSoftware_FX_Open)}</span>
             <span className="position">Software Engineer</span>
             <span className="company">Fluxus</span>
-            <span className="date">May 2022 – Current</span>
+            <span className="date">07/2023 – Current</span>
           </span>
         </button>
         {isSoftware_FX_Open && (
@@ -47,13 +47,15 @@ const Work = () => {
             <span className="toggle-icon">{getToggleButtonLabel(isSoftware_BO_Open)}</span>
             <span className="position">Software Engineer</span>
             <span className="company">BLUE OAK CO., LTD.</span>
-            <span className="date">May 2022 – Current</span>
+            <span className="date">05/2022 – 07/2023</span>
           </span>
         </button>
         {isSoftware_BO_Open && (
           <ul>
-            <li>Placeholder a</li>
-          </ul>
+            <li><span className="accomplishment">Developed an AI-based footstep analysis system </span><span className="method">through processing data from vibration sensors </span><span className="tool">using Python and Raspberry Pi</span>.</li>
+            <li><span className="accomplishment">Created an advanced fall detection algorithm </span><span className="method">through analysis of vibration sensor data </span><span className="tool">using C++ on ESP32 hardware</span>.</li>
+            <li><span className="accomplishment">Enhanced IoT device monitoring and data management </span><span className="method">through enabling real-time device state tracking, log storage, data streaming, and third-party service integration </span><span className="tool">using AWS IoT Core and Thingsboard</span></li>
+        </ul>
         )}
       </div>
 
@@ -63,7 +65,7 @@ const Work = () => {
             <span className="toggle-icon">{getToggleButtonLabel(isSystem_MFEC_Open)}</span>
             <span className="position">System Engineer</span>
             <span className="company">MFEC Public Company Limited</span>
-            <span className="date">Dec 2020 – May 2022</span>
+            <span className="date">12/2020 – 05/2022</span>
           </span>
         </button>
         {isSystem_MFEC_Open && (
@@ -79,7 +81,7 @@ const Work = () => {
             <span className="toggle-icon">{getToggleButtonLabel(isResearch_KU_Open)}</span>
             <span className="position">Researcher (Contract)</span>
             <span className="company">Kasetsart University</span>
-            <span className="date">Jun 2018 – Dec 2020</span>
+            <span className="date">06/2018 – 12/2020</span>
           </span>
         </button>
         {isResearch_KU_Open && (
@@ -95,7 +97,7 @@ const Work = () => {
             <span className="toggle-icon">{getToggleButtonLabel(isResearch_BO_Open)}</span>
             <span className="position">Researcher (Contract)</span>
             <span className="company">BLUE OAK CO., LTD.</span>
-            <span className="date">Aug 2020 – Dec 2020</span>
+            <span className="date">08/2020 – 12/2020</span>
           </span>
         </button>
         {isResearch_BO_Open && (
@@ -111,7 +113,7 @@ const Work = () => {
             <span className="toggle-icon">{getToggleButtonLabel(isResearch_PEN_Open)}</span>
             <span className="position">Researcher (Contract)</span>
             <span className="company">Panorama Co., LTD.</span>
-            <span className="date">Nov 2018 - Feb 2019</span>
+            <span className="date">11/2018 - 02/2019</span>
           </span>
         </button>
         {isResearch_PEN_Open && (
@@ -126,8 +128,8 @@ const Work = () => {
           <span className="button-content">
             <span className="toggle-icon">{getToggleButtonLabel(isResearch_NARA_Open)}</span>
             <span className="position">Researcher (Internship)</span>
-            <span className="company">Nara Institute of Science and Technology</span>
-            <span className="date">Jun 2017 - Aug 2017</span>
+            <span className="company">NAIST</span>
+            <span className="date">06/2017 - 08/2017</span>
           </span>
         </button>
         {isResearch_NARA_Open && (
