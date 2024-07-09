@@ -163,13 +163,13 @@ body {
   overflow: auto; /* Make content scrollable if it overflows */
 }
 
-.aboutme-container {
+/* .aboutme-container {
   color: rgb(64, 224, 125);
   font-family: monospace;
   max-width: 60rem;
   width: 90%;
   margin: 0 auto;
-}
+} */
 
 .dropdown {
   margin-top: 1rem;
@@ -220,4 +220,31 @@ body {
 .experience-bar-fill {
   background-color: rgb(64, 224, 125);
   height: 100%;
+}
+
+.button-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.toggle-icon {
+  flex: 0;
+  margin-right: 10px;
+}
+
+.position {
+  flex: 1;
+  text-align: left;
+}
+
+.company {
+  flex: 1;
+  text-align: center;
+}
+
+.date {
+  flex: 1;
+  text-align: right;
 }
