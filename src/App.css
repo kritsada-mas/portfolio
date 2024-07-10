@@ -159,7 +159,7 @@ body {
   font-family: monospace;
   max-width: 60rem;
   width: 90%;
-  height: 20rem; /* Set a fixed height */
+  height: 30rem; /* Set a fixed height */
   overflow: auto; /* Make content scrollable if it overflows */
 }
 
@@ -264,4 +264,12 @@ body {
   color: rgb(144, 224, 64);
   opacity: 1.0;
   font-size: 11px;
+}
+
+.activities-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  border-top: 1px dashed rgba(64, 224, 125, 0.3); /* Adjust the color and width as needed */
 }

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import AboutMe from './tabs/aboutme';
 import Work from './tabs/work'
 
-const Tabs = () => {
+export const Tabs = () => {
   const [activeTab, setActiveTab] = useState('about-me');
 
   return (
@@ -27,4 +27,10 @@ const Tabs = () => {
   );
 };
 
-export default Tabs;
+export const Activities = () => {
+  return (
+    <div className="activities-container">
+      <h2> my activity </h2>
+    </div>
+  );
+};

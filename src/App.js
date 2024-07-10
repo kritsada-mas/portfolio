@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { HeaderImage, HeaderLine } from './components/headers';
 import MatrixBackground from './components/MatrixBackground';
-import Tabs from './components/body';
+import { Tabs, Activities } from './components/body';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       </div>
       <HeaderLine />
       <Tabs />
+      <Activities />
     </div>
   );
 }
