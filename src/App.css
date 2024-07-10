@@ -249,13 +249,19 @@ body {
 }
 
 .accomplishment {
-  color: rgb(173, 216, 230); /* Light blue color */
+  color: rgb(224, 187, 64);
+  opacity: 1.0;
+  font-size: 11px;
 }
 
 .method {
-  color: rgb(255, 182, 193); /* Light pink color */
+  color: rgb(64, 224, 197);
+  opacity: 1.0;
+  font-size: 11px;
 }
 
 .tool {
-  color: rgb(191 123 255); /* Light green color */
+  color: rgb(144, 224, 64);
+  opacity: 1.0;
+  font-size: 11px;
 }
